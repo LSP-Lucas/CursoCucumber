@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="0" name="runners.RunnerTest" time="0.016" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2022.2.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\jre\bin"/>
+    <property name="java.vm.version" value="25.352-b08"/>
+    <property name="jdk.vendor.version" value="Zulu 8.66.0.15-CA-win64"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Cursos\CursoCucumber"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Cursos\CursoCucumber"/>
+    <property name="java.runtime.version" value="1.8.0_352-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\001162~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Users\001162687\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Maven\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\CCM;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft VS Code\bin;C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\bin;C:\Maven\apache-maven-3.8.6\bin;C:\Users\001162687\AppData\Local\Microsoft\WindowsApps;C:\Users\001162687\AppData\Local\Programs\Git\cmd;."/>
+    <property name="maven.conf" value="C:\Maven\apache-maven-3.8.6/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\001162687"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="001162687"/>
+    <property name="java.class.path" value="C:\Maven\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar;C:\Maven\apache-maven-3.8.6\boot\plexus-classworlds.license;C:\Users\001162687\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.3 clean install -U -X"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_352"/>
+    <property name="java.ext.dirs" value="C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\jre\lib\resources.jar;C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\jre\lib\rt.jar;C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\jre\lib\sunrsasign.jar;C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\jre\lib\jsse.jar;C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\jre\lib\jce.jar;C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\jre\lib\charsets.jar;C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\jre\lib\jfr.jar;C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\jre\lib\cat.jar;C:\Java\zulu8.66.0.15-ca-jdk8.0.352-win_x64\jre\classes"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="C:\Maven\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Alugar filme" name="Deve alugar um filme com sucesso" time="0.012"/>
+  <testcase classname="Alugar filme" name="Não deve alugar filme sem estoque" time="0"/>
+  <testcase classname="Alugar filme" name="Deve dar condições conforme tipo de aluguel" time="0.002"/>
+  <testcase classname="Alugar filme" name="Deve dar condições conforme tipo de aluguel" time="0.001"/>
+  <testcase classname="Alugar filme" name="Deve dar condições conforme tipo de aluguel" time="0.001"/>
+</testsuite>

@@ -1,0 +1,4 @@
+converters\DateConverter.class
+steps\AlugarFilmeSteps.class
+runners\RunnerTest.class
+steps\AprenderCucumberSteps.class
